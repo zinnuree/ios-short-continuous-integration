@@ -46,8 +46,8 @@
 /* Begin PBXFileReference section */
 		00DFC214D6FFB6C5A4473B6E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		24944837389015112AC5968E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		4D86FE92667EB156DA2E8328 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
-		5F1346396288447DD9C2F2A0 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		4D86FE92667EB156DA2E8328 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		5F1346396288447DD9C2F2A0 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../Bridging-Header.h"; sourceTree = "<group>"; };
 		75EF2F85551198D91E754AB4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		835AEC8E1D80DD800046555C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,7 +128,6 @@
 				A955D2AE1DEDDE6100018872 /* RomanNumeralCalculatorUITests */,
 				835AEC8C1D80DD800046555C /* Products */,
 				0380283AD5184CEE1A19D653 /* Frameworks */,
-				5F1346396288447DD9C2F2A0 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +150,7 @@
 				835AEC951D80DD800046555C /* Assets.xcassets */,
 				835AEC921D80DD800046555C /* Main.storyboard */,
 				A91340101DE008F2005ED9CA /* LaunchScreen.xib */,
+				5F1346396288447DD9C2F2A0 /* Bridging-Header.h */,
 				835AEC9A1D80DD800046555C /* Info.plist */,
 			);
 			path = RomanNumeralCalculator;
